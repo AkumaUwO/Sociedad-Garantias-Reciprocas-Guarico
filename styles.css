@@ -1,0 +1,229 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dbdbdb;
+    color: #333;
+}
+
+/* Banner */
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("./sgr-logo.png");
+    background-size: cover;
+    text-align: center;
+    padding: 17% 15%;
+    color: #fff;
+}
+
+        /* Estilos para la barra de navegación */
+        .navbar {
+            background-color: rgba(202, 2, 2, 0.7); /* Rojo con transparencia */
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 5px 0;
+            z-index: 1000;
+        }
+
+        .navbar ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .navbar img{
+            width: auto;
+            margin-left: 15px;
+            margin-right: 30px;
+            height: 50px;
+            border-radius: 5%;
+        }
+
+        .navbar li {
+            margin-right: 25px;
+            margin-left: 30px;
+            margin-top: 12px;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .navbar a:hover{
+            color: #333;
+        }
+
+
+/* Secciones */
+
+.about{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i4oLqNJdxIko/v0/piFq5T3pJF0qzS8rF9LjsWaQ/-1x-1.jpg");
+    text-shadow: 0px 4px 8px rgb(0, 0, 0);
+    text-align: justify;
+}
+
+.mission{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("http://www.mpppst.gob.ve/mpppstweb/wp-content/uploads/2020/03/Chavez2-1.jpg");
+    background-size: cover;
+    text-shadow: 0px 4px 8px rgb(0, 0, 0);
+    text-align: justify;
+}
+
+.vision{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Reflejo_de_los_Morros.JPG/1200px-Reflejo_de_los_Morros.JPG");
+    text-shadow: 0px 4px 8px rgb(0, 0, 0);
+    text-align: justify;
+}
+
+.goals{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://radio.otilca.org/wp-content/uploads/2019/06/36ad661eaf454a1e899ec4bf199e1842-7.jpg");
+    text-shadow: 0px 4px 8px rgb(0, 0, 0);
+    background-size: cover;
+    text-align: justify;
+}
+
+
+
+.about,
+.mission,
+.vision,
+.goals,
+.team {
+    display: flex;
+    align-items: center;
+    margin: 100px;
+    padding: 50px; /* Espaciado interno (ajústalo según tu diseño) */
+    background-color: #f9f9f9; /* Color de fondo */
+    color: rgb(255, 255, 255);
+}
+
+.team{
+    display: block;
+    text-align: center;
+    background-image: url("https://w.forfun.com/fetch/f3/f320e2ccba8868948e38db857b30d0de.jpeg");
+    background-size: cover;
+    text-shadow: 0px 4px 8px rgb(0, 0, 0);
+}
+
+.team h1{
+    margin-bottom: 20px;
+}
+
+.team img{
+    border-radius: 5%;
+}
+.about img {
+    max-width: 40%; /* Ancho máximo de la imagen */
+    height: auto; /* Altura automática según el tamaño de la imagen */
+    margin-right: 20px; /* Espaciado entre la imagen y el texto */
+    border-radius: 5%;
+}
+
+.about-content {
+    flex: 1; /* Ocupa el espacio restante */
+}
+
+.about h1 {
+    font-size: 24px;
+    margin-bottom: 20px; /* Margen inferior del título */
+}
+
+.about p {
+    font-size: 16px;
+    line-height: 1.5; /* Espaciado entre líneas del párrafo */
+    margin-right: 20px; /* Margen derecho del párrafo */
+}
+
+.mission img {
+    max-width: 40%; /* Ancho máximo de la imagen */
+    height: auto; /* Altura automática según el tamaño de la imagen */
+    margin-right: 20px; /* Espaciado entre la imagen y el texto */
+    border-radius: 5%;
+}
+
+.mission-content {
+    flex: 1; /* Ocupa el espacio restante */
+}
+
+.mission h1 {
+    font-size: 24px;
+    margin-bottom: 20px; /* Margen inferior del título */
+}
+
+.mission p {
+    font-size: 16px;
+    line-height: 1.5; /* Espaciado entre líneas del párrafo */
+    margin-right: 20px; /* Margen derecho del párrafo */
+}
+
+.vision img {
+    max-width: 40%; /* Ancho máximo de la imagen */
+    height: auto; /* Altura automática según el tamaño de la imagen */
+    margin-right: 20px; /* Espaciado entre la imagen y el texto */
+    border-radius: 5%;
+}
+
+.vision h1 {
+    font-size: 24px;
+    margin-bottom: 20px; /* Margen inferior del título */
+}
+
+.vision p {
+    font-size: 16px;
+    line-height: 1.5; /* Espaciado entre líneas del párrafo */
+    margin-right: 20px; /* Margen derecho del párrafo */
+}
+
+.goals img {
+    max-width: 40%; /* Ancho máximo de la imagen */
+    height: auto; /* Altura automática según el tamaño de la imagen */
+    margin-right: 20px; /* Espaciado entre la imagen y el texto */
+    border-radius: 5%;
+}
+
+.goals h1 {
+    font-size: 24px;
+    margin-bottom: 20px; /* Margen inferior del título */
+}
+
+.goals p {
+    font-size: 16px;
+    line-height: 1.5; /* Espaciado entre líneas del párrafo */
+    margin-right: 20px; /* Margen derecho del párrafo */
+}
+
+/* Footer */
+.footer {
+    background-color: #b91e1e; /* Rojo característico de Venezuela */
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer a{
+    color: #fff; /* Color del texto */
+    font-weight: bold;
+    font-size: 20px;
+    padding: 6px 12px; /* Espaciado interno (ajústalo según tu diseño) */
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: rgba(0, 0, 0, 0.795); /* Color del texto */
+    font-weight: bold;
+    font-size: 20px;
+    padding: 8px 16px; /* Espaciado interno (ajústalo según tu diseño) */
+    text-decoration: none;
+}
+
